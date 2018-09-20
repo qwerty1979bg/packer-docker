@@ -6,7 +6,8 @@ This repository contains a Packer template for building a docker image
 
 1. [Install Packer](https://www.packer.io/intro/getting-started/install.html#precompiled-binaries)
 2. [Install Docker](https://docs.docker.com/install/#supported-platforms)
-3. Clone this repository and `cd` into it.
+3. Clone this repository `git clone https://github.com/qwerty1979bg/packer-docker`
+4. Change directory `cd packer-docker`
 
 4. Run the following:
 
