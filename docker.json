@@ -1,14 +1,16 @@
 {
-  "variables": {                
+  "variables": {
     "docker_hub_username": "{{ env `DOCKER_HUB_USERNAME` }}",
     "docker_hub_password": "{{ env `DOCKER_HUB_PASSWORD` }}",
     "tag_version": "0.{{timestamp}}"
   },
-  "builders": [{
-    "type": "docker",
-    "image": "ubuntu",
-    "commit": true
-  }],
+  "builders": [
+    {
+      "type": "docker",
+      "image": "ubuntu",
+      "commit": true
+    }
+  ],
   "post-processors": [
     [
       {
